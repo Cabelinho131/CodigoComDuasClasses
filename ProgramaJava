@@ -1,0 +1,20 @@
+public class Programa {
+
+    public static void main(String[] args) {
+
+        Aluno aluno1 = new Aluno("01", "Joao", "ADS", "masculino" );
+        System.out.println(aluno1.nome);
+        aluno1.trocarNome("Pedro");
+        System.out.println(aluno1.nome);
+
+        Aluno aluno2 = new Aluno("02", "PEdro", "CDIA", "masculino");
+        System.out.println(aluno2.curso);
+        aluno2.trocarDeCurso("ES");
+
+        System.out.println(aluno2.curso);
+        aluno1.TrocarID("05");
+        System.out.println(aluno1.matricula);
+
+
+    }
+}
