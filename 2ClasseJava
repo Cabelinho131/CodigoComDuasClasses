@@ -1,0 +1,25 @@
+public class Aluno {
+
+    String matricula, nome, curso, gender;
+
+    public Aluno (String id, String name , String course , String genero) {
+
+        this.matricula= id;
+        this.nome=name;
+        this.curso=course;
+        this.gender = genero;
+    }
+
+   public void trocarDeCurso(String novoCurso){
+
+        this.curso = novoCurso;
+    }
+    public void trocarNome (String novoNome){
+        this.nome=novoNome;
+    }
+
+    public void TrocarID (String NovoId){
+        this.matricula=NovoId;
+    }
+
+}
